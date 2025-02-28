@@ -1,0 +1,26 @@
+[package]
+### name = "NFTLotteryContracts"
+name = "DefyWaitlistContracts"
+version = "1.0.0"
+authors = []
+
+[addresses]
+mini_games = "0xcd7b88c2181881bf8e7ef741cae867aee038e75df94224496a4a81627edf7f65"
+ticket_minter = "0xdc965ace9692d0b860e9d509304f8d745a0b1ef9b39ccbf4ed663398350ffa9f"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.AptosToken]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-token"
+
+[dependencies.AptosTokenObjects]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-token-objects"
+
+
